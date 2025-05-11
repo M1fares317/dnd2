@@ -1,0 +1,158 @@
+body{
+  font-family: "Philosopher", sans-serif;
+  font-style: normal;
+  background-color:lightskyblue;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header{
+  text-align:center;
+  background-image:url(https://cdn.pixabay.com/photo/2025/04/15/19/37/ai-generated-9536165_1280.jpg);
+  font-size:100%;
+}
+
+header h1{
+  padding-top:100px;
+  margin-bottom:10px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size:50px;
+}
+
+nav{
+    text-align: center;
+    padding-bottom:70px;
+    
+}
+
+nav a{
+    margin: 0px;
+    font-size:20px;
+    color: black;
+}
+
+button{
+    border-radius: 10px;
+    
+}
+.DungeonsDragons{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color:#F3EBF4;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top:50px;
+  flex-direction: column;
+  text-align: center;
+}
+.DungeonsDragons img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.DungeonsDragons p{
+    font-family: 'ABeeZee';
+    padding-left: 10px;
+    font-size: 23px;
+    text-align: left;
+    padding-bottom:10px;
+}
+.opus{
+  margin:0px;
+  font-size:20px;
+  padding-bottom:10px;
+  padding-bottom:100px;
+}
+
+
+.d20 {
+    width: 100px;
+    height: 100px;
+    background-color: #cc0000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s ease-in-out;
+    text-align:center;
+    margin: 10px 0; /* Додано для вертикального відступу */
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.d20:active {
+            transform: scale(0.95);
+}
+
+footer{
+  text-align:center;
+  background-color:#2879B5;
+  font-size:100%;
+  color:white;
+  padding:30px;
+}
+ .image-1 {
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.image-2 {
+    top: 150px;
+    left: 120px;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.image-3 {
+    top: 250px;
+    left: 240px;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.image-1:hover {
+  z-index: 1;
+  opacity: 1;
+  height: 250px;
+  width: 350px;
+}
+
+.image-2:hover {
+  z-index: 1;
+  opacity: 1;
+  height: 250px;
+  width: 350px;
+}
+
+.image-3:hover {
+  z-index: 1;
+  opacity: 1;
+  height: 250px;
+  width: 350px;
+}    
+
+nav{
+    text-align: center;
+    padding-bottom:70px;
+}
+
+.nav1 a{
+    margin: 0px;
+    font-size:35px;
+    color: black;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSFiddle pe07gtf9</title>
+
+  <style>
+    body{
+  font-family: "Philosopher", sans-serif;
+  font-style: normal;
+  background-color:lightskyblue;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header{
+  text-align:center;
+  background-image:url(https://cdn.pixabay.com/photo/2025/04/15/19/37/ai-generated-9536165_1280.jpg);
+  font-size:100%;
+}
+
+header h1{
+  padding-top:100px;
+  margin-bottom:10px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size:50px;
+}
+
+nav{
+    text-align: center;
+    padding-bottom:70px;
+    
+}
+
+nav a{
+    margin: 0px;
+    font-size:20px;
+    color: black;
+}
+
+button{
+    border-radius: 10px;
+    
+}
+.DungeonsDragons{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color:#F3EBF4;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top:50px;
+  flex-direction: column;
+  text-align: center;
+}
+.DungeonsDragons img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.DungeonsDragons p{
+    font-family: 'ABeeZee';
+    padding-left: 10px;
+    font-size: 23px;
+    text-align: left;
+    padding-bottom:10px;
+}
+.opus{
+  margin:0px;
+  font-size:20px;
+  padding-bottom:10px;
+  padding-bottom:100px;
+}
+
+
+.d20 {
+    width: 100px;
+    height: 100px;
+    background-color: #cc0000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s ease-in-out;
+    text-align:center;
+    margin: 10px 0; /* Додано для вертикального відступу */
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+.d20:active {
+            transform: scale(0.95);
+}
+
+footer{
+  text-align:center;
+  background-color:#2879B5;
+  font-size:100%;
+  color:white;
+  padding:30px;
+}
+ .image-1 {
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.image-2 {
+    top: 150px;
+    left: 120px;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.image-3 {
+    top: 250px;
+    left: 240px;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.image-1:hover {
+  z-index: 1;
+  opacity: 1;
+  height: 250px;
+  width: 350px;
+}
+
+.image-2:hover {
+  z-index: 1;
+  opacity: 1;
+  height: 250px;
+  width: 350px;
+}
+
+.image-3:hover {
+  z-index: 1;
+  opacity: 1;
+  height: 250px;
+  width: 350px;
+}    
+
+nav{
+    text-align: center;
+    padding-bottom:70px;
+}
+
+.nav1 a{
+    margin: 0px;
+    font-size:35px;
+    color: black;
+}
+  </style>
+
+  
+</head>
+<body>
+  <html>
+  <head>
+    <title>DnD Основи</title>
+    <link rel="stylesheet"href="style.css"/>
+    <meta name="google-site-verification" content="HrHVORNJvVr7B079UzC3JnL18nAmkYMQNrRqELIA0q4" />
+   </head>
+   <body>
+    <header>
+    <h1>D&D Основи: <br>Відкрийте для себе Світ Пригод</h11>
+    <h1 class=opus>Вітаємо, шукачу пригод! Ти стоїш на порозі неймовірних історій, де магія сплітається з мечем, а доля світу може залежати від твоїх рішень. Dungeons & Dragons (D&D) – це не просто гра, це портал у безмежні світи фантазій, де ти станеш героєм власної уяви.
+
+Цей сайт "D&D Основи" стане твоїм першим провідником у цьому захопливому всесвіті. Ми розкриємо ключові механіки гри, допоможемо створити твого унікального персонажа та навчимо основам бойових зіткнень. Отже, приготуйся вирушити у подорож!</h1>
+    <nav>
+      <button><a href="#DescriptionDND">Опис DND</a></button>
+      <button><a href="#Creatingcharacter">Створення Героя</a></button>
+      <button><a href="#CombatSystem">Бойова Система</a></button>
+  </nav>
+    </header>
+    <main>
+    <h1>Невеликий опис DND</h1>
+      <div class="DungeonsDragons">
+      <img src="https://cdn.pixabay.com/photo/2024/04/23/03/07/dice-8713848_1280.png" width="100px" height="100px">
+      
+      <h2 id="DescriptionDND">Dungeons & Dragons</h2>
+      <div class="d20" id="dice">1</div><p>Симулятор DnD Дайсу</p>
+      <p>Dungeons & Dragons (D&D) – це настільна рольова гра у жанрі фентезі, де гравці створюють власних унікальних персонажів і разом вирушають у захопливі пригоди, керовані Майстром Підземелля (DM). DM описує світ, розігрує ролі неігрових персонажів та визначає наслідки дій гравців, використовуючи правила гри та власну уяву. D&D – це гра про співпрацю, розповідь історій та безмежну фантазію, де кожен кидок кубика може змінити хід подій.</p>
+      </div>
+      <h1>Фішки для майстра</h1>
+      <h2>DnD battle map</h2>
+            <img class="image-1" src="https://runefoundry.com/cdn/shop/products/ForestEncampment_digital_day_grid.jpg?v=1676584019" height="200px" width="300px"/>
+            <img class="image-2" src="https://www.thearcanelibrary.com/cdn/shop/articles/Shadow_Map_1600x.jpg?v=1614728441" height="200px" width="300px"/>
+            <img class="image-3" src="https://i.etsystatic.com/18388031/r/il/7d6ff4/4034958221/il_570xN.4034958221_ipof.jpg" height="200px" width="300px"/>
+      <h2>Сайти для створення DnD battle map</h2>
+      <nav class="nav1">
+      <button><a href="https://watabou.itch.io/">watabou</a></button>
+      <button><a href="https://app.dungeonscrawl.com/">dungeonscrawl</a></button>
+      <button><a href="https://www.pinterest.com/phoenixdnd/genshin-game/battle-maps/">pinterest</a></button>
+  </nav>
+    </main>
+    <footer>
+      <h2>©2025 Моя компанія. Усі права захищено.</h2>
+    </footer>
+  </body>
+</html>
+
+  <script>
+    const dice = document.getElementById('dice');
+
+        dice.addEventListener('click', () => {
+            const randomNumber = Math.floor(Math.random() * 20) + 1;
+            dice.textContent = randomNumber;
+        });
+  </script>
+</body>
+</html>

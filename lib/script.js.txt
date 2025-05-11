@@ -1,0 +1,6 @@
+const dice = document.getElementById('dice');
+
+        dice.addEventListener('click', () => {
+            const randomNumber = Math.floor(Math.random() * 20) + 1;
+            dice.textContent = randomNumber;
+        });
